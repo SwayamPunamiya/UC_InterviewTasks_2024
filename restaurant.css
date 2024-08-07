@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 7vw;
+    background-color: white;
+    border-bottom: 2px  rgb(252,196,124);
+    box-shadow: 0px 2px 20px grey;
+    z-index: 2;
+}
+.restaurant-logo{
+    width: 150px;
+    height: 80px;
+    mix-blend-mode: multiply;
+}
+.header ul{
+    display: flex;
+    align-items: center;
+}
+.header ul li:hover{
+    color:rgb(253,57,8);
+}
+.middle-section ul li{
+    padding: 0 15px;
+    font-size: 16px;
+}
+.right-section button{
+    background-color:  #EA6D27;
+    color: white;
+    border: 2px solid  #EA6D27;
+    font-size: 16px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 4px;
+}
+.right-section button:hover{
+    cursor: pointer; ;
+    color: rgb(98, 71, 43);
+}
+.page1{
+    display: flex;
+    align-items: center;
+}
+.side1{
+    padding-top: 200px;
+    padding-left: 200px;
+}
+h1{
+    font-family: David Libre;
+    font-size: 70px;
+    line-height: 72px;
+    font-weight: 700;
+    color: #101A24;
+}
+.side1 p{
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #5C6574;
+}
+.menu-button{
+    margin-top: 40px;
+    margin-right: 20px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 54px;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 4px;
+}
+.book-a-table{
+    background-color: #EA6D27;
+    color: white;
+    border: 2px solid #EA6D27;
+    width: 167px;
+    height: 54px;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 4px;
+}
+
+.ambience{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    margin-top: 300px;
+    margin-left: 800px;
+    margin-bottom: 100px;
+    border: solid;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 120px;
+}
+.food-dish{
+    position: relative;
+    margin-top: 400px;
+    width: 300px;
+}
+.social-media{
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+.page2{
+    justify-content: center;
+    background-color: rgb(244, 243, 243);
+    margin-top: 200px;
+
+}
+.page2 h1{
+    padding-top: 100px;
+    font-family: David Libre;
+    font-weight: 700;
+    font-size: 60px;
+    color: #101A24;
+    text-align: center;
+}
+.lorem{
+    margin-top: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5C6574;
+    text-align: center;
+}
+.food-items{
+    margin: 30px 0;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item{
+    padding: 30px;
+    width: 360px;
+
+}
+.item img{
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+.item-name{
+    border: solid;
+    height: 460px;
+    padding: 40px;
+    width: 320px;
+    background-color: white;
+    border: solid white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 20px;
+    z-index: 0;
+}
+.item-name:hover{
+    border: 1px solid #EA6D27;
+    cursor: pointer;
+    background-color: #fcb32c;
+}
+.item h3{
+    font-family: David Libre;
+    font-weight: 700;
+    font-size: 20px;
+    color: #101A24;
+}
+.item p{
+    margin-top: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    color: #5C6574;
+}
+
+.page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.page3 img{
+    width: 700px;
+    margin-right: 40px;
+}
+.lorem2{
+    margin-top: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5C6574;
+}
+.welcome{
+    padding-top: 100px;
+    font-family: David Libre;
+    font-weight: 700;
+    font-size: 60px;
+    color: #101A24;
+}
+.page4{
+    display: flex;
+    justify-content: center;
+}
+.page4 img{
+    width: 1241px;
+    height: 499px;
+    margin-top: 60px;
+    border-radius: 80px;
+    position: absolute;
+    z-index: 0;
+}
+.promo-code{
+    width: 740px;
+    height: 116px;
+    border: solid white;
+
+}
+.page4 h1{
+    position: relative;
+    z-index: 1;
+    color: white;
+    font-family: David Libre;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 160px;
+}
+.email{
+    position: relative;
+    padding: 20px 12px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 160px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.subscribe{
+    position: absolute;
+    background-color: #EA6D27;
+    color: white;
+    border: 2px solid #EA6D27;
+    width: 167px;
+    height: 54px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: -60px;
+}
+
+
